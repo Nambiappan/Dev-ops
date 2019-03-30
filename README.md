@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+## GIT Distributed version control system. ( Nambiappan - Learnt today)
 
-You can use the [editor on GitHub](https://github.com/Nambiappan/Dev-ops/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+# GIT Important commands
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The follow are important GIT Commands of GIT usage
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Nambiappan/Dev-ops/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+1. git init <repository name> 
+   init creates repository under the current directory
+  
+2. git add <file name>
+    add sub command adds the file for the git tracking.
+  
+3. git config --global user.name <<name>>
+  using config and --global , we can set the user name of the contributor
+  
+4. git config --global user.email <<email>>
+  using config and --global , we can set the user email of the contributor
+ 
+5. git status
+    status command gives the files which are untracked , staged etc. we can view the details and perform necessary action
+ 
+6. git commit -m  "commit message"
+    using the commit command with -m flag , we can commit to changes to file and with the commit message
+    
+    
+7. git branch <branch name>
+    git branch creates a new branch with name provided as input.
+  
+8. git rm  <file name>
+    rm sub command removes files from git tracking
+  
+To ignore any files to be tracked not shown in the status evertime, create a .gitignore file and the files which needs to be not tracked by git. These files are mostly compiled / binaries of source code , which is not required to be tracked.
