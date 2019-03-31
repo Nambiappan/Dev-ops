@@ -29,24 +29,24 @@ The following are important GIT Commands
 8. git rm  <file name>
     rm sub command removes files from git tracking
   
-To ignore any files to be tracked not shown in the status everytime, create a .gitignore file and add the files name ,which            needs to be not tracked by git. These files are mostly compiled / binaries of source code , which is not required to be t  racked.
+9. To ignore any files to be tracked not shown in the status everytime, create a .gitignore file and add the files name ,which            needs to be not tracked by git. These files are mostly compiled / binaries of source code , which is not required to be t  racked.
 
- 9. git clone  <path of orginal> <cloning Repo location>
+10. git clone  <path of orginal> <cloning Repo location>
    git cloning supports over ssh , http(s) and locally
    a. over https --> git clone https://github.com/nambiappan/repo_name <local repo path>
    
- 10.After local work is completed use the below command to push the changes to orgin master
+11.After local work is completed use the below command to push the changes to orgin master
    git push orgin master
    
- 11. git branch <branch name>
+12. git branch <branch name>
     To create new branch
    
- 12. git checkout <branch name>
+13. git checkout <branch name>
    to start working on the new branch
 
- 13. git push orgin --all
+14. git push orgin --all
    push branches to orgin
    
- 14. get merge <target branch>
+15. get merge <target branch>
    bring branches together
 
