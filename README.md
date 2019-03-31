@@ -35,7 +35,7 @@ The following are important GIT Commands
    git cloning supports over ssh , http(s) and locally
    a. over https --> git clone https://github.com/nambiappan/repo_name <local repo path>
    
-11.After local work is completed use the below command to push the changes to orgin master
+11. After local work is completed use the below command to push the changes to orgin master
    git push orgin master
    
 12. git branch <branch name>
