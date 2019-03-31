@@ -35,18 +35,18 @@ To ignore any files to be tracked not shown in the status everytime, create a .g
    git cloning supports over ssh , http(s) and locally
    a. over https --> git clone https://github.com/nambiappan/repo_name <local repo path>
    
-10.After local work is completed use the below command to push the changes to orgin master
+ 10.After local work is completed use the below command to push the changes to orgin master
    git push orgin master
    
-11. git branch <branch name>
+ 11. git branch <branch name>
     To create new branch
    
-12. git checkout <branch name>
+ 12. git checkout <branch name>
    to start working on the new branch
 
-13. git push orgin --all
+ 13. git push orgin --all
    push branches to orgin
    
-14. get merge <target branch>
+ 14. get merge <target branch>
    bring branches together
 
