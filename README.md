@@ -29,9 +29,9 @@ The following are important GIT Commands
 8. git rm  <file name>
     rm sub command removes files from git tracking
   
-9. To ignore any files to be tracked not shown in the status everytime, create a .gitignore file a
-nd add the files name ,which needs to be not tracked by git. These files are mostly compiled / binaries of source code 
-, which is not required to be tracked.
+9. To ignore any files to be tracked not shown in the status everytime, create a .gitignore file and
+   add the files name ,which needs to be not tracked by git. These files are mostly compiled / binaries of source code 
+   , which is not required to be tracked.
 
 10. git clone  <path of orginal> <cloning Repo location>
    git cloning supports over ssh , http(s) and locally
